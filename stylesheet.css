@@ -14,13 +14,15 @@ div.logo {
     position: absolute;
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
+    /* translates the logo into the centre */
     transform: translate(-50%, -50%);
-    /* display:flex; */
+
 }
 
 /* Creates a shadow behind the logo for increased visability */
 .logo.logo {
+    width:40%;
+    height:40%;
     -webkit-filter: drop-shadow(10px 10px 10px #1A1B22);
     filter:         drop-shadow(10px 10px 10px #1A1B22);
 }
